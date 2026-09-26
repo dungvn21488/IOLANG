@@ -37,9 +37,9 @@ Created by **DungVN21488**.
 
 Download the IoLang setup package:
 
-**[Download setup.zip](setup.zip)**
+**[Download setup.7z](setup.7z)**
 
-Extract `setup.zip`, then run:
+Extract `setup.7z`, then run:
 
 ```text
 setup.exe
@@ -612,7 +612,7 @@ IoLang/
 
 ### Windows Installer
 
-**[Download setup.zip](setup.zip)**
+**[Download setup.7z](setup.7z)**
 
 Contains the IoLang Windows installer and the required IoLang executables.
 
