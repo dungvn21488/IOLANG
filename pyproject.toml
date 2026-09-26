@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iolang"
+version = "1.0.1"
+description = "IoLang™ programming language and compiler"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    { name = "DungVN21488" }
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY"
+Documentation = "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/blob/main/CSI-1.md"
+License = "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/blob/main/LICENSE"

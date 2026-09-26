@@ -1,0 +1,29 @@
+# math.ioh - Mathematics library for IoLang
+# Version 1.1
+
+pyexec "import math"
+
+# === Basic constants ===
+const Pi = math.pi
+const E = math.e
+const Tau = math.tau
+const Phi = (1 + math.sqrt(5)) / 2          # Golden ratio
+const Euler = 0.5772156649015329            # Euler-Mascheroni constant
+
+# === Special values ===
+const Nan = math.nan
+const Infi = math.inf
+const NInfi = -math.inf
+
+# === Common angles (in radians) ===
+const Deg30 = math.pi / 6
+const Deg45 = math.pi / 4
+const Deg60 = math.pi / 3
+const Deg90 = math.pi / 2
+const Deg180 = math.pi
+const Deg360 = math.tau
+
+# === Utility functions ===
+pyexec "def to_deg(rad): return math.degrees(rad)"
+pyexec "def to_rad(deg): return math.radians(deg)"
+pyexec "def clamp(x, lo, hi): return max(lo, min(hi, x))"
